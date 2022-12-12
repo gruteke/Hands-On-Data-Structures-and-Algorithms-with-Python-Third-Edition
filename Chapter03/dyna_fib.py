@@ -10,8 +10,10 @@ def dyna_fib(n):
     return lookup[n] 
 
  
-lookup = [None]*(1000) 
+#lookup = [None]*(1000) 
+lookup = [None]*(10)
 
   
-for i in range(6):  
+for i in range(6):
+    print(i, lookup)  
     print(dyna_fib(i)) 
